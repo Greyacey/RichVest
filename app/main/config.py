@@ -4,7 +4,6 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-# uncomment the line below for mysql database url from environment variable
 database_url = os.environ.get('DATABASE_URL')
 
 basedir = os.path.abspath(os.path.dirname(__file__))

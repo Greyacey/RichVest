@@ -2,6 +2,7 @@ from flask import request
 from flask_restplus import Resource
 
 from app.main.service.user_service import save_new_user, delete_a_user, generate_token
+from app.main.service.user_service import get_a_user_by_id, get_a_user_by_email, get_a_user_wallet, get_a_user_transactions
 from ..model.user import User
 from ..util.dto import UserDTO
 
